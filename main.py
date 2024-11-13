@@ -6,11 +6,11 @@ import pandas as pd
 import time
 
 # Global Variables
-api_key = 'RGAPI-e1746d96-ae7e-4235-a4d1-cad6dcfbd948'
+api_key = 'RGAPI-49c7609e-d626-452b-8750-20dfddfb4767'
 watcher = LolWatcher(api_key)
 my_region = 'na1'
 puuids = []
-players = dictionary.my_dictionary()
+players = dictionary.Dictionary()
 
 
 def getPlayers():
